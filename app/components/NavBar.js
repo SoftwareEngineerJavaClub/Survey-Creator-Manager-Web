@@ -14,7 +14,7 @@ const navigation = [
   { name: "Dashboard", href: "/dashboard", current: false },
   { name: "Surveys", href: "#", current: false },
   { name: "Projects", href: "#", current: false },
-  { name: "Create Survey", href: "#", current: false },
+  { name: "Create Survey", href: "/surveys/create", current: false },
 ];
 
 const NavBar = () => {
